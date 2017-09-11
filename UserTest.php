@@ -10,7 +10,7 @@ class UserTest extends TestCase{
 
   public function testTalk() {
     $user = new User();
-    $expected = "Hello world!";
+    $expected = "Hello world2!";
     $actual = $user->talk();
     $this->assertEquals($expected, $actual);
   }
