@@ -8,6 +8,7 @@ class User {
         $this->name = $name;
     }
     public function talk() {
+        echo 'saludo';
         return "Hello world! cambio de prueba";
     }
 }
